@@ -8,7 +8,7 @@ The entrypoint for this image generates a pgqd configuration file from the envir
 Environment Variables
 ---------------------
 
-All environmment variables are optional, although `PGQD_BASE_CONNSTR` will need to be set for typical usage, unless you'd prefer to configure the daemon with [libpq environment variables](http://www.postgresql.org/docs/9.4/static/libpq-envars.html).
+All environmment variables are optional, although `PGQD_BASE_CONNSTR` will need to be set for typical usage unless you'd prefer to configure the daemon with [libpq environment variables](http://www.postgresql.org/docs/9.4/static/libpq-envars.html).
 
 - `PGDQ_BASE_CONNSTR`: `libpq` connection string, without dbname=
 - `PGQD_LOGFILE`: where to log
